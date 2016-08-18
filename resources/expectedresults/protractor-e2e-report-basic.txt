@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<testsuite tests="1" name="Protractor End to End Test Results" time="4.369" timestamp="2013-10-23T00:00:00+13:00">
-    <testcase className="Feature: A passed feature here  - Scenario: should behave in a certain way" name="Feature: A passed feature here  - Scenario: should behave in a certain way" time="4.369"/>
-    <system-out>beta</system-out>
-</testsuite>
