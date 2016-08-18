@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<testsuite tests="1" name="Protractor End to End Test Results" time="4.33" timestamp="2013-10-23T00:00:00">
+    <testcase className="Feature: An invalid run" name="Feature: An invalid run" time="4.33"/>
+    <system-out>beta</system-out>
+</testsuite>
