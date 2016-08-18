@@ -13,6 +13,9 @@ build:
     - cd ..
 
   ci:
+    - cd target
+    - pwd
+    - cd ..
     - npm install
     - npm test
 
