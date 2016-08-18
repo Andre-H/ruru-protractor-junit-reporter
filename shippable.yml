@@ -1,0 +1,14 @@
+# language setting
+language: node_js
+# Running the tests with npm
+
+env:
+  - XUNIT_FILE=shippable/testresults/result.xml
+
+build:
+  ci:
+    - npm install
+    - npm test
+
+  post_ci:
+    - ./node_modules/.bin/istanbul report cobertura --dir shippable/codecoverage/

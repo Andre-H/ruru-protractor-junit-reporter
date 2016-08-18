@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<testsuite errors="1" failures="1" tests="1" name="Protractor End to End Test Results" time="4.33" timestamp="2013-10-22T11:00:00.000Z">
+    <testcase className="Feature: A failed feature here  - Scenario: should have behaved in a certain way" name="Feature: A failed feature here  - Scenario: should have behaved in a certain way" time="4.33">
+        <failure type="testfailure">Failed: Expected 'DS1 Metadata
+Drag a column header and drop it here to group by that column
+Column Settings
+Index
+Column Settings
+Name
+Column Settings
+Display Name
+Column Settings
+Data Type
+1 Year Year Dimension
+10 slot_revenue Slot Revenue BPD
+11 advertising_promotions Advertising+Promotions BPD
+12 annual_percent_on_floor Annual % On Floor BPD
+Go to the first page
+Go to the previous page
+1
+Go to the next page
+Go to the last page
+1 - 4 of 4 items' to Equal 'DS1 Metadata
+Drag a column header and drop it here to group by that column
+Column Settings
+Index
+Column Set
+Go to the next page
+Go to the last page
+1 - 4 of 4 items'.. Error: Expected 'DS1 Metadata
+Drag a column header and drop it here to group by that column
+Column Settings
+Index
+Column Settings
+Name
+Column Settings
+Display Name
+Column Settings
+Data Type
+1 Year Year Dimension
+10 slot_revenue Slot Revenue BPD
+11 advertising_promotions Advertising+Promotions BPD
+12 annual_percent_on_floor Annual % On Floor BPD
+Go to the first page
+Go to the previous page
+1
+Go to the next page
+Go to the last page
+1 - 4 of 4 items' to Equal 'DS1 Metadata
+Drag a column header and drop it here to group by that column
+Column Settings
+Index
+Column Set
+Go to the next page
+Go to the last page
+1 - 4 of 4 items'.
+    at Function.proxyDone.fail (C:\Users\hulsea\WebstormProjects\vizmosaic-e2e-gui-test-automation\node_modules\grunt-protractor-runner\node_modules\protractor\node_modules\jasminewd2\index.js:89:34)
+    at C:\Users\hulsea\WebstormProjects\vizmosaic-e2e-gui-test-automation\node_modules\node-jasmine-file-contents-matcher\index.js:33:26
+    at tryCallOne (C:\Users\hulsea\WebstormProjects\vizmosaic-e2e-gui-test-automation\node_modules\promise\lib\core.js:37:12)
+    at C:\Users\hulsea\WebstormProjects\vizmosaic-e2e-gui-test-automation\node_modules\promise\lib\core.js:123:15
+    at flush (C:\Users\hulsea\WebstormProjects\vizmosaic-e2e-gui-test-automation\node_modules\promise\node_modules\asap\raw.js:50:29)
+    at nextTickCallbackWith0Args (node.js:420:9)
+    at process._tickCallback (node.js:349:13)
+From: Task: Run it("should apply column selection") in control flow
+    at Object.&lt;anonymous&gt; (C:\Users\hulsea\WebstormProjects\vizmosaic-e2e-gui-test-automation\node_modules\grunt-protractor-runner\node_modules\protractor\node_modules\jasminewd2\index.js:81:14)
+    at attemptAsync (C:\Users\hulsea\WebstormProjects\vizmosaic-e2e-gui-test-automation\node_modules\grunt-protractor-runner\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1916:24)
+    at QueueRunner.run (C:\Users\hulsea\WebstormProjects\vizmosaic-e2e-gui-test-automation\node_modules\grunt-protractor-runner\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1871:9)
+    at C:\Users\hulsea\WebstormProjects\vizmosaic-e2e-gui-test-automation\node_modules\grunt-protractor-runner\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1898:16
+    at C:\Users\hulsea\WebstormProjects\vizmosaic-e2e-gui-test-automation\node_modules\grunt-protractor-runner\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1842:9
+    at C:\Users\hulsea\WebstormProjects\vizmosaic-e2e-gui-test-automation\node_modules\grunt-protractor-runner\node_modules\protractor\node_modules\jasminewd2\index.js:18:5
+    at [object Object].promise.Promise.goog.defineClass.invokeCallback_ (C:/Users/hulsea/WebstormProjects/vizmosaic-e2e-gui-test-automation/node_modules/grunt-protractor-runner/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:1337:14)
+    at [object Object].promise.ControlFlow.goog.defineClass.goog.defineClass.abort_.error.executeNext_.execute_ (C:/Users/hulsea/WebstormProjects/vizmosaic-e2e-gui-test-automation/node_modules/grunt-protractor-runner/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:2776:14)
+    at [object Object].promise.ControlFlow.goog.defineClass.goog.defineClass.abort_.error.executeNext_ (C:/Users/hulsea/WebstormProjects/vizmosaic-e2e-gui-test-automation/node_modules/grunt-protractor-runner/node_modules/protractor/node_modules/selenium-webdriver/lib/goog/../webdriver/promise.js:2758:21)
+    at goog.async.run.processWorkQueue (C:\Users\hulsea\WebstormProjects\vizmosaic-e2e-gui-test-automation\node_modules\grunt-protractor-runner\node_modules\protractor\node_modules\selenium-webdriver\lib\goog\async\run.js:124:15)
+From asynchronous test: 
+Error
+    at Suite.&lt;anonymous&gt; (C:\Users\hulsea\WebstormProjects\vizmosaic-e2e-gui-test-automation\tests\e2e\datasources\specs\datasource-spec.js:58:5)
+    at addSpecsToSuite (C:\Users\hulsea\WebstormProjects\vizmosaic-e2e-gui-test-automation\node_modules\grunt-protractor-runner\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:833:25)
+    at Env.describe (C:\Users\hulsea\WebstormProjects\vizmosaic-e2e-gui-test-automation\node_modules\grunt-protractor-runner\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:802:7)
+    at jasmineInterface.describe (C:\Users\hulsea\WebstormProjects\vizmosaic-e2e-gui-test-automation\node_modules\grunt-protractor-runner\node_modules\protractor\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:3375:18)
+    at Object.&lt;anonymous&gt; (C:\Users\hulsea\WebstormProjects\vizmosaic-e2e-gui-test-automation\tests\e2e\datasources\specs\datasource-spec.js:13:1)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12). </failure>
+    </testcase>
+    <system-out>beta</system-out>
+</testsuite>

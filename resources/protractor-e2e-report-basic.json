@@ -1,0 +1,11 @@
+[
+  {
+    "description": "Feature: A passed feature here  - Scenario: should behave in a certain way",
+    "assertions": [
+      {
+        "passed": true
+      }
+    ],
+    "duration": 4369
+  }
+]
