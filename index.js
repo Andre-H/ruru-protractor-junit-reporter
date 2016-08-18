@@ -96,7 +96,7 @@ function XMLReporter(options) {
 		xw.writeAttribute('tests', jsonstr.length);
 		xw.writeAttribute('name', automationHeader);
 		xw.writeAttribute('time', totalTime);
-		xw.writeAttribute('timestamp', moment().format('YYYY-MM-DDTHH:mm:ss'));//new Date().toISOString());
+		xw.writeAttribute('timestamp', moment().format('YYYY-MM-DDTHH:mm:ss'));
 
 		for (var t = 0; t < testArray.length; t++) {
 			xw.startElement('testcase');
