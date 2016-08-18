@@ -58,7 +58,7 @@ function XMLReporter(options) {
 	self.generateXMLReport = function (inputFile, title) {
 		var jsonResult = require(path.resolve(inputFile));
 		var result = generateReport(jsonResult, options.title);
-		fs.writeFileSync(options.xmlReportDestPath, result);
+		fs.writeFileSync(path.resolve(options.xmlReportDestPath), result);
 	};
 
 	function generateReport(jsonstr, automationHeader) {
