@@ -7,10 +7,8 @@ env:
 
 build:
 
-  pre_ci:
-    - mkdir -p ./target
-
   ci:
+    - mkdir -p ./target
     - npm install
     - npm test
 
