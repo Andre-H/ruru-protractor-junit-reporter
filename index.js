@@ -13,7 +13,7 @@ function getTestNameFromResult(result){
 }
 
 function determineTestStatus(run){
-    var assertions = run.assertions;
+    var assertions = run.assertions||[];
     var runDuration = run.duration;
     var assertionsArray = new Array();
     var passed = "";
