@@ -9,6 +9,8 @@ build:
 
   pre_ci:
     - mkdir -p ./target
+    - cd target
+    - cd ..
 
   ci:
     - npm install
