@@ -4,6 +4,7 @@ require('node-jasmine-file-contents-matcher');
 describe('Generate JUnit XML Report', function () {
 
     var jSonXMLReporter = require('../index.js');
+    process.env.TZ = 'Europe/Amsterdam'
     jasmine.clock().mockDate(new Date(2013, 9, 23));
 
     it('should create XML from JSON', function (done) {
