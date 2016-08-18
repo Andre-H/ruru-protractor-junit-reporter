@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<testsuite tests="2" name="Protractor End to End Test Results" time="0.001" timestamp="2013-10-22T11:00:00.000Z">
+<testsuite tests="2" name="Protractor End to End Test Results" time="0.001" timestamp="2013-10-23T00:00:00+13:00">
     <testcase className="Feature: A skipped feature here  - Scenario: was escaped with xit" name="Feature: A skipped feature here  - Scenario: was escaped with xit" time="0">
         <skipped message="Skipped reason not provided by Protractor"/>
     </testcase>
