@@ -10,7 +10,7 @@ describe('Generate JUnit XML Report', function () {
     it('should create XML from JSON', function (done) {
         var xmlReporter = new jSonXMLReporter({
             title : 'Protractor End to End Test Results',
-            xmlReportDestPath : 'protractor-e2e-report-basic.xml'
+            xmlReportDestPath : 'target/protractor-e2e-report-basic.xml'
         });
         xmlReporter.generateXMLReport('./resources/protractor-e2e-report-basic.json');
         expect(fs.readFileSync('protractor-e2e-report-basic.xml')).toEqualFileContentsIgnoreLineBreaks('protractor-e2e-report-basic', done);
@@ -19,7 +19,7 @@ describe('Generate JUnit XML Report', function () {
     it('should be able to handle failed tests from JSON', function (done) {
         var xmlReporter = new jSonXMLReporter({
             title : 'Protractor End to End Test Results',
-            xmlReportDestPath : 'protractor-e2e-report-with-failures.xml'
+            xmlReportDestPath : 'target/protractor-e2e-report-with-failures.xml'
         });
         xmlReporter.generateXMLReport('./resources/protractor-e2e-report-with-failures.json');
         expect(fs.readFileSync('protractor-e2e-report-with-failures.xml')).toEqualFileContentsIgnoreLineBreaks('protractor-e2e-report-with-failures',done);
@@ -28,7 +28,7 @@ describe('Generate JUnit XML Report', function () {
     it('should treat passed tests with the duration of 0 as skipped', function (done) {
         var xmlReporter = new jSonXMLReporter({
             title : 'Protractor End to End Test Results',
-            xmlReportDestPath : 'protractor-e2e-report-with-skips.xml'
+            xmlReportDestPath : 'target/protractor-e2e-report-with-skips.xml'
         });
         xmlReporter.generateXMLReport('./resources/protractor-e2e-report-with-skips.json');
         expect(fs.readFileSync('protractor-e2e-report-with-skips.xml')).toEqualFileContentsIgnoreLineBreaks('protractor-e2e-report-with-skips',done);
@@ -37,7 +37,7 @@ describe('Generate JUnit XML Report', function () {
     it('should be able to handle a run without assertions', function (done) {
         var xmlReporter = new jSonXMLReporter({
             title : 'Protractor End to End Test Results',
-            xmlReportDestPath : 'protractor-e2e-report-without-assertion.xml'
+            xmlReportDestPath : 'target/protractor-e2e-report-without-assertion.xml'
         });
         xmlReporter.generateXMLReport('./resources/protractor-e2e-report-without-assertion.json');
         expect(fs.readFileSync('protractor-e2e-report-without-assertion.xml')).toEqualFileContentsIgnoreLineBreaks('protractor-e2e-report-without-assertion',done);

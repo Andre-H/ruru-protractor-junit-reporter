@@ -7,13 +7,8 @@ env:
 
 build:
 
-  pre_ci:
-    - mkdir -p ./target
-    - cd target
-    - pwd
-    - cd ..
-
   ci:
+    - mkdir -p ./target
     - pwd
     - ls
     - npm install
