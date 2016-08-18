@@ -1,5 +1,5 @@
 # ruru-protractor-junit-reporter
-A post-processor that will output Protractor test results in JUnit xml format.
+A post-processor that will output Protractor test results in JUnit XML format.
 
 Will work with multi-capabilities and sharding spec files, because it will take the json output file from Protractor and create a single JUnit XML file.
 
@@ -27,7 +27,13 @@ exports.config = {
 	//Place a afterLauch function similar to:
 	afterLaunch : function (exitCode) {
 		return new Promise(function (resolve) {
-			new XMLReporter('My Protractor End to End Results', 'reportDestinationFolder').generateXMLReport(exports.config.resultJsonOutputFile);
+
+		    var reporter = new XMLReporter({
+                title : 'My Protractor End to End Results',
+                xmlReportDestPath : 'reportDestinationFolder/protractor-e2e-report.xml'
+            });
+
+			reporter.generateXMLReport(exports.config.resultJsonOutputFile);
 		});
 	}
 }
