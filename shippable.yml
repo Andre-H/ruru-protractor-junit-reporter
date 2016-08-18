@@ -10,10 +10,12 @@ build:
   pre_ci:
     - mkdir -p ./target
     - cd target
+    - pwd
     - cd ..
 
   ci:
     - pwd
+    - ls
     - npm install
     - npm test
 
