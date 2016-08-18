@@ -6,7 +6,9 @@ env:
   - XUNIT_FILE=shippable/testresults/result.xml
 
 build:
+
   ci:
+    - mkdir -p ./target
     - npm install
     - npm test
 

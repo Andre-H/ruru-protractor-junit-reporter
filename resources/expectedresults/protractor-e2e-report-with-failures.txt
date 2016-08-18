@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<testsuite errors="1" failures="1" tests="1" name="Protractor End to End Test Results" time="4.33" timestamp="2013-10-22T11:00:00.000Z">
+<testsuite errors="1" failures="1" tests="1" name="Protractor End to End Test Results" time="4.33" timestamp="2013-10-23T00:00:00">
     <testcase className="Feature: A failed feature here  - Scenario: should have behaved in a certain way" name="Feature: A failed feature here  - Scenario: should have behaved in a certain way" time="4.33">
         <failure type="testfailure">Failed: Expected 'DS1 Metadata
 Drag a column header and drop it here to group by that column

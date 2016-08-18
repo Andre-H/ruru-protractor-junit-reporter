@@ -1,6 +1,7 @@
 var fs = require('fs');
 var path = require('path');
 var XMLWriter = require('xml-writer');
+var moment = require('moment');
 
 var hasOwnProperty = Object.prototype.hasOwnProperty;
 
@@ -58,7 +59,7 @@ function XMLReporter(options) {
 	self.generateXMLReport = function (inputFile, title) {
 		var jsonResult = require(path.resolve(inputFile));
 		var result = generateReport(jsonResult, options.title);
-		fs.writeFileSync(options.xmlReportDestPath, result);
+		fs.writeFileSync(path.resolve(options.xmlReportDestPath), result);
 	};
 
 	function generateReport(jsonstr, automationHeader) {
@@ -95,7 +96,7 @@ function XMLReporter(options) {
 		xw.writeAttribute('tests', jsonstr.length);
 		xw.writeAttribute('name', automationHeader);
 		xw.writeAttribute('time', totalTime);
-		xw.writeAttribute('timestamp', new Date().toISOString());
+		xw.writeAttribute('timestamp', moment().format('YYYY-MM-DDTHH:mm:ss'));
 
 		for (var t = 0; t < testArray.length; t++) {
 			xw.startElement('testcase');
