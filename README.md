@@ -3,9 +3,9 @@ A post-processor that will output Protractor test results in JUnit XML format.
 
 Will work with multi-capabilities and sharding spec files, because it will take the json output file from Protractor and create a single JUnit XML file.
 
-Build status: [![Run Status](https://api.shippable.com/projects/57b56157e7eea10f00b76da4/badge?branch=master)](https://app.shippable.com/projects/57b56157e7eea10f00b76da4)
+Build status: [![Run Status](https://api.shippable.com/projects/5c241f57d1578b07002bbeda/badge?branch=master)](https://api.shippable.com/projects/5c241f57d1578b07002bbeda/badge?branch=master)
 
-Test coverage: [![Coverage Badge](https://api.shippable.com/projects/57b56157e7eea10f00b76da4/coverageBadge?branch=master)](https://app.shippable.com/projects/57b56157e7eea10f00b76da4)
+Test coverage: [![Coverage Badge](https://api.shippable.com/projects/5c241f57d1578b07002bbeda/coverageBadge?branch=master)](https://api.shippable.com/projects/5c241f57d1578b07002bbeda/coverageBadge?branch=master)
 
 ## Installation
 `npm install ruru-protractor-junit-reporter`
